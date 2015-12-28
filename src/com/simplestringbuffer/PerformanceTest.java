@@ -31,8 +31,8 @@ public class PerformanceTest {
 
     private static void StringConcatenation() {
         for(long i = 0; i < 2000; i++) {
-            s = s + s1 + s2 + s3;
-            //s = s.concat(s1).concat(s2).concat(s3);
+            //s = s + s1 + s2 + s3;
+            s = s.concat(s1).concat(s2).concat(s3);
         }
     }
 
