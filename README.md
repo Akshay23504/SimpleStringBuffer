@@ -1,5 +1,5 @@
 # SimpleStringBuffer
-A Simple Implementation of Java StringBuffer
+A Simple Implementation of Java StringBuffer with append and toString methods
 
 # Example
 
